@@ -5,14 +5,14 @@ The Student Task Manager System is a console-based Java program that helps manag
 It allows creating tasks, assigning them to students, and tracking their completion.
 
 ✨ Features
-Create Student
-Create Category
-Create Task
-Add Task to Student
-View Student Tasks
-View All Tasks
-Mark Task as Complete
-Delete Task
+- Create Student
+- Create Category
+- Create Task
+- Add Task to Student
+- View Student Tasks
+- View All Tasks
+- Mark Task as Complete
+- Delete Task
 
 
 
