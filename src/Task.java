@@ -1,7 +1,7 @@
 package taskmanager;
 import java.util.Date;
 
-public class Task {
+public class Task { 
 	
 	private int taskID;
 	private String title;
