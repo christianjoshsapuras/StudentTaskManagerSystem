@@ -1,10 +1,12 @@
-# StudentTaskManagerSystem
-📌  ## Overview
+# Student Task Manager System
 
-The Student Task Manager System is a console-based Java program that helps manage students and their tasks.
+## 📌 Overview
+
+The Student Task Manager System is a console-based Java program that helps manage students and their tasks.  
 It allows creating tasks, assigning them to students, and tracking their completion.
 
-✨ ## Features
+## ✨ Features
+
 - Create Student
 - Create Category
 - Create Task
