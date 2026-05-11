@@ -19,5 +19,5 @@ It allows creating tasks, assigning them to students, and tracking their complet
 
 
 
-![image alt]()
+![image alt](https://github.com/christianjoshsapuras/StudentTaskManagerSystem/blob/265dd99abae9911290361fc6b3c10a07b4edde93/ClassDiagram.png)
 ![image alt]()
