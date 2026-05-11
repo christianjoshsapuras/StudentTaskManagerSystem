@@ -27,14 +27,18 @@ Student Task Manager System is a simple Java console-based program that helps us
 
 ## Sample Menu
 
+```text
 ========== STUDENT TASK MANAGER ==========
+
 1. Create Task
 2. View All Tasks
 3. Edit Task
 4. Mark Task Complete
 5. Delete Task
 6. Exit
+
 Choose option:
+```
 
 
 
