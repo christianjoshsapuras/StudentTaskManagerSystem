@@ -1,23 +1,18 @@
 package taskmanager;
 
 public class Category {
-  private int categoryID;
-  private String categoryName; 
-
-  public Category(int categoryID, String categoryName) {
-    this.categoryID = categoryID;
-    this.categoryName = categoryName;
-  }
-
-  public int getCategoryID() {
-    return categoryID;
-  }
-
-  public String getCategoryName() {
-    return categoryName;
-  }
-
-  public void setCategoryName(String categoryName) {
-    this.categoryName = categoryName;
-  } 
+	
+	private String name;
+	
+	public Category(String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
 }
