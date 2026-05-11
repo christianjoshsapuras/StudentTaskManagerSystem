@@ -1,23 +1,21 @@
 package taskmanager;
-import java.util.Date;
 
-public class Task { 
+public class Task {
 	
 	private int taskID;
 	private String title;
 	private String description;
-	private Date dueDate;
+	private String dueDate;
 	private boolean status;
+	private Category category;
 	
-	
-	public Task(int taskID, String title, String description, Date dueDate) {
+	public Task(int taskID, String title, String description, String dueDate, Category category) {
 		this.taskID = taskID;
 		this.title = title;
 		this.description = description;
 		this.dueDate = dueDate;
+		this.category = category;
 		this.status = false;
-		
-		
 	}
 	
 	public int getTaskID() {
@@ -32,16 +30,19 @@ public class Task {
 		return description;
 	}
 	
-	public Date getDueDate() {
+	public String getDueDate() {
 		return dueDate;
 	}
 	
-	public boolean getStatus( ) {
+	public boolean getStatus() {
 		return status;
 	}
 	
+	public Category getCategory() {
+		return category;
+	}
 	
-	public void setTitle(String title ) {
+	public void setTitle(String title) {
 		this.title = title;
 	}
 	
@@ -49,16 +50,19 @@ public class Task {
 		this.description = description;
 	}
 	
-	public void setDueDate(Date dueDate) {
+	public void setDueDate(String dueDate) {
 		this.dueDate = dueDate;
 	}
 	
+	public void setCategory(Category category) {
+		this.category = category;
+	}
 	
 	public void markComplete() {
-		this.status = true;
+		status = true;
 	}
 	
 	public void markIncomplete() {
-		this.status = false;
+		status = false;
 	}
 }
